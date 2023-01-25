@@ -1,7 +1,16 @@
+var btnTranslate=document.querySelector("#btn-translate");
 
-var userName=prompt("Enter your Name");
-var welcomeMessage="Welcome to the app";
+var txtInput=document.querySelector("#txt-input");
 
-alert(welcomeMessage + userName);
+function clickHandler() {
+   
+    console.log("clicked");
+    console.log("input", txtInput.value);
 
-console.log("script is working");
+}
+
+
+btnTranslate.addEventListener("click", clickHandler)
+
+
+

@@ -3,16 +3,21 @@
     --width-break: 600px;
 }
 body{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
    
 }
 
 #nav-head{
     background-color:var(--primary);
-    font-size: 2rem;
-    padding:1rem;
+    font-size: large;
+    padding:2rem;
     text-align: center;
     margin: 0%;
+}
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
 }
 textarea{
     padding: 1rem;
@@ -42,4 +47,17 @@ textarea{
     box-sizing: border-box;
     overflow: scroll;
 
+}
+
+footer
+{
+   font-size: large;
+   text-align: center;
+   background-color: var(--primary);
+   padding: 1rem;
+   margin: 0%;
+}
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
 }
